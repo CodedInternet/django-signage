@@ -11,3 +11,6 @@ class Content (models.Model):
 	#feed = models.ForeignKey()
 	#user = models.ForeignKey()
 	
+class Feed (models.Model):
+	feedname = models.CharField(max_length=80)
+	
