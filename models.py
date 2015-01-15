@@ -14,3 +14,7 @@ class Content (models.Model):
 class Feed (models.Model):
 	feedname = models.CharField(max_length=80)
 	
+class Screen (models.Model):
+	screenname = models.CharField(max_length=80)
+	hash = models.CharField(max_length=32)
+	
