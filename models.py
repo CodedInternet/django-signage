@@ -18,3 +18,6 @@ class Screen (models.Model):
 	screenname = models.CharField(max_length=80)
 	hash = models.CharField(max_length=32)
 	
+class ScreenFeed (models.Model):
+	#screenfeed = 
+	
